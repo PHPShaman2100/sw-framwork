@@ -15,14 +15,35 @@
         }
     ],
     "require": {
-        "php": ">=8.2.0",
-        "ext-mbstring": "*",
+        "php": ">=8.2",
+        "ext-mysqli": "*",
         "ext-ctype": "*",
-        "lib-pcre": "*"
+        "ext-pcntl": "*",
+        "ext-zlib": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "lib-pcre": "*",
+        "psr/log": "*",
+        "symfony/console": "*",
+        "symfony/dependency-injection": "*",
+        "symfony/templating": "*",
+        "symfony/routing": "*",
+        "symfony/http-foundation": "*",
+        "symfony/psr-http-message-bridge": "*",
+        "symfony/config": "*",
+        "symfony/yaml": "*",
+        "symfony/asset": "*",
+        "symfony/twig-bundle": "*",
+        "doctrine/orm": "*",
+        "doctrine/migrations": "*"
     },
     "autoload": {
         "psr-4": {
             "SW\\": "src"
         }
-    }
+    },
+    "bin": [
+        "console/bin/httpServer.php"
+    ]
 }
