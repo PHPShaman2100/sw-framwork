@@ -36,7 +36,9 @@
         "symfony/asset": "*",
         "symfony/twig-bundle": "*",
         "doctrine/orm": "*",
-        "doctrine/migrations": "*"
+        "doctrine/migrations": "*",
+        "openswoole/core": "*",
+        "openswoole/cli": "*"
     },
     "autoload": {
         "psr-4": {
