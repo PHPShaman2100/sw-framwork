@@ -1,0 +1,6 @@
+parameters:
+  route:
+    index:
+      path: '/'
+      action: 'dgd'
+      requestHandler: 'dfg'
